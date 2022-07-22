@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cambista_P.Vistas.Convertir"
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"><!--Invocando la libreria Material-->
+    <Grid BackgroundColor="#FDE07F">
+        <StackLayout VerticalOptions="Center" Margin="0">
+            <Image  Source="https://lottiefiles.com/share/b6yedtap"/>
+            <lottie:AnimationView
+                    x:Name="animationView"
+                    Animation="https://assets3.lottiefiles.com/packages/lf20_b6yedtap.json"
+                    AnimationSource="Url"
+                    AutoPlay="True" RepeatMode="Restart"
+                   RepeatCount="10"/>
+            <Frame HasShadow="False"
+                   CornerRadius="15">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Soles (S/.)"
+                       PlaceholderColor="Black"
+                       TextColor="Black"
+                       x:Name="txtSoles">
+                </Entry>
+            </Frame>
+            <Button Text="Calcular"
+                    CornerRadius="10"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextTransform="None"
+                    BackgroundColor="#7C50E9"
+                    TextColor="White"
+                    Margin="0,20,0,0"
+                    x:Name="btnCalcular"
+                    Clicked="btnCalcular_Clicked">
+            </Button>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center">
+                </Label>
+                <Label Text="$0.00"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="lblResultado">
+                </Label>
+            </StackLayout>
+            <Button Text="Volver"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    x:Name="btnVolver"
+                    Clicked="btnVolver_Clicked">
+                
+            </Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

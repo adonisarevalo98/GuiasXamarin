@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMVVM.View.FormularioSQL1">
+    <StackLayout Margin="20,35,20,20">
+        <Entry x:Name="nameEntry"
+               Placeholder="Ingresar Nombre" 
+               Text="{Binding NuevoNombre}"/>
+        <Entry x:Name="ageEntry"
+               Placeholder="Ingresar Edad" 
+               Text="{Binding NuevaEdad}"/>
+        <Button Text="Add to Database"
+                Command="{Binding GuardarPersonacommand}" />
+
+        <CollectionView VerticalOptions="Center"
+                                ItemsSource="{Binding ListaPersonas}"
+                                Margin="20,80,20,0"
+                                x:Name="LISTAPERSONAS">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                         Span="1"
+                                         VerticalItemSpacing="20">
+
+                </GridItemsLayout>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding Nombre}"
+                               FontSize="Medium" />
+                        <Label Text="{Binding Edad}"
+                               TextColor="Silver"
+                               FontSize="Small" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </StackLayout>
+</ContentPage>

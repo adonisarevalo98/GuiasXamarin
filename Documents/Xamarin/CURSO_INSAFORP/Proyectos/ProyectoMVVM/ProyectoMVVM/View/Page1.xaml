@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMVVM.View.Page1"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Aqua">
+        <StackLayout VerticalOptions="Center" Margin="20,35,20,35">
+                <Label Text="Ingrese su año de nacimiento"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center">
+                </Label>
+                <Entry PlaceholderColor="Black"
+                       Keyboard="Numeric"
+                       Placeholder="Año de Nacimiento"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding Año_Nace}"> <!--Bindeando a Objeto-->
+                </Entry>
+                <Label Text="Ingrese el año actual"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center">
+                </Label>
+                <Entry PlaceholderColor="Black"
+                       Keyboard="Numeric"
+                       Placeholder="Año actual"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding Año_Actual}"> <!--Bindeando a Objeto-->
+                </Entry>
+                <Button Text="Calcular edad"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Khaki"
+                    Command="{Binding CalculoCommand}"> <!--Bindeando a Comando-->
+                </Button>
+                <Label TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       Text="{Binding Respuesta}"> <!--Bindeando a Objeto-->
+                    
+                </Label>
+               
+                <Grid Grid.Row="1" ColumnSpacing="0">
+                    <Button Text="Login"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    Command="{Binding ToFormulario1Command}">
+                        <!--Bindeando a Comando-->
+                    </Button>
+                    <Button Text="Películas"
+                    Grid.Column="1"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    Command="{Binding ToPage2Command}">
+                        <!--Bindeando a Comando-->
+                    </Button>
+                    <Button Text="Lista SQL"
+                    Grid.Column="2"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    Command="{Binding ToFormularioSQLCommand}">
+                        <!--Bindeando a Comando-->
+                    </Button>
+                </Grid>
+        <StackLayout HorizontalOptions="Center"
+                             Orientation="Horizontal">
+                    <Label Text="Acceso"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center">
+                    </Label>
+                    <Picker TextColor="Black"
+                            HorizontalOptions="FillAndExpand"
+                            Title="Seleccione una opción..."
+                            TitleColor="Black"
+                            SelectedItem="{Binding ComboSeleccionado}"><!--Bindeando a Objeto-->
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Administrador</x:String>
+                                <x:String>Operador</x:String>
+                                <x:String>TI</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center">
+                    <Label Text="Seleccionar Fecha"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center">
+                    </Label>
+                    <DatePicker TextColor="Black"
+                                BackgroundColor="Khaki"
+                                Date="{Binding FechaSeleccionada, Mode=TwoWay}"><!--Bindeando a Objeto, TwoWay obtiene la fecha SELECCIONADA-->
+                        <DatePicker.Format>dd/MM/yyyy
+                        </DatePicker.Format>
+                    </DatePicker>
+                    <Label TextColor="Black"
+                           FontAttributes="Bold"
+                           FontSize="20" 
+                           Text="{Binding FechaConvertida}"> <!--Bindeando a Objeto-->
+
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

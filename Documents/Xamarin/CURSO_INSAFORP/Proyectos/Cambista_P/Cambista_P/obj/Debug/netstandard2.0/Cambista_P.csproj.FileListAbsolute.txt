@@ -1,0 +1,17 @@
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\bin\Debug\netstandard2.0\Cambista_P.deps.json
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\bin\Debug\netstandard2.0\Cambista_P.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\bin\Debug\netstandard2.0\Cambista_P.pdb
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.csproj.AssemblyReference.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Vistas\Principal.xaml.g.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.AssemblyInfoInputs.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.AssemblyInfo.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.csproj.CoreCompileInputs.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\refint\Cambista_P.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Cambista_P.pdb
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\ref\Cambista_P.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\Cambista_P\Cambista_P\obj\Debug\netstandard2.0\Vistas\Convertir.xaml.g.cs

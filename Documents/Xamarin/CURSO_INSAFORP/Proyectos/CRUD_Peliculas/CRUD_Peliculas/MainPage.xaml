@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD_Peliculas.MainPage">
+
+    <StackLayout>
+        <StackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Start">
+            <Image x:Name="mibanner"
+                   Source="">
+                
+            </Image>
+            <Image Margin="0,0,0,10"
+                   HeightRequest="100"
+                   Source="">
+
+            </Image>
+            <Label Text="CRUD de Películas"
+                   Margin="10,30,0,10"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Gray"
+                   HorizontalTextAlignment="Center">
+            </Label>
+            <Entry x:Name="txtPeliculaId"
+                   Placeholder="Ingresar Codigo"
+                   TextColor="Black"
+                   PlaceholderColor="Black"
+                   Margin="30,0,200,20">
+                
+            </Entry>
+            <Entry x:Name="txtPeliculaNombre"
+                   Placeholder="Ingresar Título"
+                   TextColor="Black"
+                   PlaceholderColor="Black">
+
+            </Entry>
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         Orientation="Horizontal">
+                <Button x:Name="btnAdd"
+                        WidthRequest="150"
+                        Text="Insertar"
+                        Clicked="btnAdd_Clicked">
+                </Button>
+                <Button x:Name="btnUpdate"
+                        WidthRequest="150"
+                        Text="Actualizar"
+                        Clicked="btnUpdate_Clicked">
+                </Button>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         Orientation="Horizontal">
+                <Button x:Name="btnDelete"
+                        WidthRequest="150"
+                        Text="Eliminar"
+                        Clicked="btnDelete_Clicked">
+                </Button>
+                <Button x:Name="btnSearch"
+                        WidthRequest="150"
+                        Text="Buscar"
+                        Clicked="btnSearch_Clicked">
+                </Button>
+            </StackLayout>
+            <ListView x:Name="lstpeliculas"
+                      SeparatorColor="Gray">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding IdPelicula}"
+                                  Detail="{Binding NombrePelicula}">
+                            
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

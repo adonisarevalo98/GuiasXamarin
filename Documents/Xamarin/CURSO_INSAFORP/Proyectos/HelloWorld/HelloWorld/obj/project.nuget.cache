@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "08mYWDNG4W7wc9B/g7m4Qg7GPuSj9yY96SiZ5UDHuKeAWgU03h36s+Lp0zJMWTZjWsuOmux4jjZ6WnvXGGRfXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adonis.arevalo\\Documents\\Xamarin\\Proyectos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

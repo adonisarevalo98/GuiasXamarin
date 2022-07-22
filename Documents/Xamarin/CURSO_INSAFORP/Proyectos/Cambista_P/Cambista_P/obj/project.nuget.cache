@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "WDe8zOziVH+/P+bjbkfr80EHjJor0ENeR9SYN0utdupq9kNB7mQ/zw/q5Bgw9ZEscXnDChQ6TbOj+BP8OByw3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adonis.arevalo\\Documents\\Xamarin\\CURSO_INSAFORP\\Proyectos\\Cambista_P\\Cambista_P\\Cambista_P.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\adonis.arevalo\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2478\\xamarin.forms.visual.material.5.0.0.2478.nupkg.sha512"
+  ],
+  "logs": []
+}

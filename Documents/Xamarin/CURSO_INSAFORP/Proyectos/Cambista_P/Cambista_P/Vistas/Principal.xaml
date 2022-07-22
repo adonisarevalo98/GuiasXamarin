@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cambista_P.Vistas.Principal"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" > <!-- Oculta el navegador superior-->
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FEE689">
+            <Label Text="Cambista Adonis!"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Center"/>
+            <Frame VerticalOptions="CenterAndExpand"
+                   Margin="40,20,40,20"
+                   CornerRadius="20"
+                   HasShadow="False">
+
+                <StackLayout VerticalOptions="Center" 
+                             Spacing="20">
+                    <Image Source="https://embed.lottiefiles.com/animation/93344"/>
+                    <lottie:AnimationView
+                    x:Name="animationView"
+                    Animation="https://assets9.lottiefiles.com/packages/lf20_OT15QW.json"
+                    AnimationSource="Url"
+                    AutoPlay="True" RepeatMode="Restart"
+                   RepeatCount="3"/>
+                    <Label Text="Soles a Dolares" 
+                           FontAttributes="Bold"
+                           FontSize="32"
+                           HorizontalOptions="Center"/>
+                    <Button Text="Iniciar"
+                            FontSize="Medium"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="10"
+                            FontAttributes="Bold"
+                            TextTransform="None"
+                            x:Name="btnIniciar"
+                            Clicked="btnIniciar_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

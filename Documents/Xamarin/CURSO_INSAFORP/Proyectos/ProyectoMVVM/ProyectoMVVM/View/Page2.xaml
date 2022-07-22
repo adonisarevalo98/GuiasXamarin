@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMVVM.View.Page2"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid BackgroundColor="Aqua">
+                <Image Source="arrow.png"
+                       VerticalOptions="Start"
+                       HeightRequest="50"
+                       HorizontalOptions="Start"
+                       Margin="10">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding VolverAsyncommand}"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <CollectionView VerticalOptions="Center"
+                                ItemsSource="{Binding listpeliculas}"
+                                Margin="20,80,20,0"
+                                x:Name="LISTAPELICULAS">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical"
+                                         Span="1"
+                                         VerticalItemSpacing="20">
+
+                        </GridItemsLayout>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="15" 
+                                   BackgroundColor="Purple">
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding Imagen}"
+                                       HeightRequest="100">
+
+                                    </Image>
+                                    <Label Text="{Binding Nombre}"
+                                           VerticalOptions="Center"
+                                           FontSize="20"
+                                           FontAttributes="Bold"
+                                           TextColor="White">
+
+                                    </Label>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=BindingContext.AlertaPeliculaAsyncommand, Source={x:Reference LISTAPELICULAS}}" CommandParameter="{Binding .}">
+                                        
+                                    </TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

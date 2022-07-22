@@ -1,0 +1,15 @@
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\bin\Debug\netstandard2.0\CRUD_Peliculas.deps.json
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\bin\Debug\netstandard2.0\CRUD_Peliculas.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\bin\Debug\netstandard2.0\CRUD_Peliculas.pdb
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.csproj.AssemblyReference.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.AssemblyInfoInputs.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.AssemblyInfo.cs
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.csproj.CoreCompileInputs.cache
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\refint\CRUD_Peliculas.dll
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\CRUD_Peliculas.pdb
+C:\Users\adonis.arevalo\Documents\Xamarin\Proyectos\CRUD_Peliculas\CRUD_Peliculas\obj\Debug\netstandard2.0\ref\CRUD_Peliculas.dll

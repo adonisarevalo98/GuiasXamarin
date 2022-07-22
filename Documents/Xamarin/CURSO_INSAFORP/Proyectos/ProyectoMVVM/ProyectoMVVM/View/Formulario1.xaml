@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMVVM.View.Formulario1"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Aqua">
+            <Image Source="arrow.png"
+                       VerticalOptions="Start"
+                       HeightRequest="50"
+                       HorizontalOptions="Start"
+                       Margin="10">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ToPage1Asyncommand}"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <StackLayout VerticalOptions="Center" Margin="20,35,20,35">
+                <Label Text="Ingrese su Usuario"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center">
+                </Label>
+                <Entry PlaceholderColor="Black"
+                       Keyboard="Text"
+                       Placeholder="Usuario"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding Usuario}"> <!--Bindeando a Objeto-->
+                </Entry>
+                <Label Text="Ingrese su contraseña"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center">
+                </Label>
+                <Entry PlaceholderColor="Black"
+                       Keyboard="Text"
+                       Placeholder="Contraseña"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding Password}"> <!--Bindeando a Objeto-->
+                </Entry>
+                <StackLayout HorizontalOptions="Center"
+                             Orientation="Horizontal">
+                    <Label Text="Area:"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center">
+                    </Label>
+                    <Picker TextColor="Black"
+                            HorizontalOptions="FillAndExpand"
+                            Title="Seleccione una opción..."
+                            TitleColor="Black"
+                            SelectedItem="{Binding ComboSeleccionado}"> <!--Bindeando a Objeto-->
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Sistemas</x:String>
+                                <x:String>Finanzas</x:String>
+                                <x:String>Contabilidad</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <Button Text="Ingresar"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Khaki"
+                    Command="{Binding EnvioDatosCommand}"> <!--Bindeando a Comando-->
+                </Button>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
